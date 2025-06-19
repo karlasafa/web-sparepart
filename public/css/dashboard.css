@@ -1,0 +1,62 @@
+.nav-link .icon .ri {
+    color: #000
+}
+
+.nav-link:is(.active) .icon .ri {
+    color: #fff;
+}
+
+#create-btn {
+    width: max-content;
+}
+
+img:is(.avatar),
+.avatar img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.dataTable-selector {
+    width: 70px !important;
+    padding: 0.5rem 1rem 0.5rem 0.75rem !important;
+}
+
+.dataTable-dropdown label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+img:is(#preview) {
+    display: none;
+}
+
+img:is(#preview:where(.active), #prev-image) {
+    display: block;
+    width: 300px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+img:is(.product-images) {
+    width: 100%;
+    height: auto;
+
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.ql-container {
+    border-radius: 0 0 0.5rem 0.5rem !important;
+}
+.ql-toolbar {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+.profile-header {
+    background-image: url('../img/curved-images/curved0.jpg');
+    background-position-y: 50%;
+}
